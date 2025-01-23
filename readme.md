@@ -19,7 +19,7 @@ docker run -p 8000:8000 taxize-api
 You can provide optional API keys as envrionment variables: 
 - TROPICOS_KEY
 - IUCN_REDLIST_KEY
-- ENTREZ_KEY: Get [here](https://account.ncbi.nlm.nih.gov/settings/)
+- ENTREZ_KEY (= NCBI Key): Get [here](https://account.ncbi.nlm.nih.gov/settings/)
 
 e.g.
 ```
