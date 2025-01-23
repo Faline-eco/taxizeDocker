@@ -10,7 +10,7 @@ entrez_key <- Sys.getenv("ENTREZ_KEY", unset = "")
 #* Convert a list of common names to scientific names
 #* @param common_names A JSON array of common species names
 #* @param db The data source to use for species lookup (optional)
-#* @post /comm2sci
+#* @post /com2sci
 #* @serializer json
 function(req, res) {
   # Parse the incoming JSON data from the request body

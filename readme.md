@@ -28,7 +28,7 @@ docker run -p 8000:8000 -e ENTREZ_KEY=my_awesome_entrez_key taxize-api
 
 ## Use
 
-POST request to http://localhost:8000/comm2sci
+POST request to http://localhost:8000/com2sci
 
 With JSON body:
 ```
