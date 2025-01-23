@@ -1,4 +1,4 @@
-# Taxize Common Name Resolver Docker
+# Taxize Common Name Resolver REST API
 
 [taxize](https://docs.ropensci.org/taxize/articles/taxize.html) allows users to search over many taxonomic data sources for species names (scientific and common).
 
