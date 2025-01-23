@@ -28,10 +28,10 @@ docker run -p 8000:8000 -e ENTREZ_KEY=my_awesome_entrez_key taxize-api
 
 ## Use
 
-POST request to http://localhost:8000/com2sci
+HTTP POST request to http://localhost:8000/com2sci with the following json body:
 
 With JSON body:
-```
+```json
 {
   "common_names": ["polar bear", "blue whale", "african elephant"],
   "db": "ncbi"
@@ -40,8 +40,9 @@ With JSON body:
 
 db: [Data source, one of "ncbi" (default), "itis", "tropicos", "eol", or "worms". If using ncbi, we recommend getting an API key](https://rdrr.io/cran/taxize/man/comm2sci.html)
 
-Should result in:
-```
+
+Should return something like:
+```json
 {
     "polar bear": [
         "Ursus maritimus"
