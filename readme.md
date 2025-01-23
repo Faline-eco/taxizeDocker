@@ -1,6 +1,6 @@
 # Taxize Common Name Resolver Docker
 
-taxize allows users to search over many taxonomic data sources for species names (scientific and common).
+[taxize](https://docs.ropensci.org/taxize/articles/taxize.html) allows users to search over many taxonomic data sources for species names (scientific and common).
 
 This docker image is based on the taxize package allowing to resolve common species names.
 
